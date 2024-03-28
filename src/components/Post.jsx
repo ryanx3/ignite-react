@@ -11,7 +11,8 @@ export function Post(props) {
           />
 
           <div className={styles.authorInfo}>
-
+            <strong>Ryan Martins</strong>
+            <span>Web developer</span>
           </div>
         </div>
 
@@ -24,7 +25,11 @@ export function Post(props) {
         <p> Fala galeraa</p>
         <p>Acabei de subir mais um projeto no meu portfólio. É um projeto que fiz no NLW Return, evento </p>
         <p><a href="#">jane.design/doctorcare</a></p>
-        <p><a href="#">#novoprojeto #nlw #rocketseat</a></p>
+        <p>
+          <a href="#">#novoprojeto</a>{" "}
+          <a href="#">#novoprojeto</a>{" "}
+          <a href="#">#novoprojeto</a>
+          </p>
       </div>
     </article>
   )
